@@ -1,11 +1,10 @@
 package com.itvdn.pattern.builder.pizza.builder;
 
-
 import com.itvdn.pattern.builder.pizza.component.*;
 
 public class Director {
 
-    public void constructSeaPizza(Builder builder) {
+    public void constructSeaPizza(PizzaBuilder builder) {
         builder.setDough(Dough.THIN);
         builder.setSauce(Sauce.WHITE);
         builder.setCheese(Cheese.MOZZARELLA);
@@ -13,7 +12,7 @@ public class Director {
         builder.setVegetables(Vegetables.BELL_PEPPER, Vegetables.OLIVES);
     }
 
-    public void constructMeatPizza(Builder builder) {
+    public void constructMeatPizza(PizzaBuilder builder) {
         builder.setDough(Dough.THICK);
         builder.setSauce(Sauce.RED);
         builder.setCheese(Cheese.CHEDDER, Cheese.MOZZARELLA);
