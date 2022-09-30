@@ -1,4 +1,4 @@
-package com.itvdn.pattern.factorymethod.drink_creators;
+package com.itvdn.pattern.factorymethod.drinkcreators;
 
 
 import com.itvdn.pattern.factorymethod.drinks.AbstractDrink;
